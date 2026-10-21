@@ -1,4 +1,30 @@
-.venv
+# Virtual environments
+.venv/
+venv/
+
+# Python cache and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Build and packaging output
+build/
+dist/
+*.spec
+
+# Local logs and generated images
+*.log
+captures/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Original air-writing notes; not used by the finger counter
 GUIDE.md
-.idea
-__pycache__
